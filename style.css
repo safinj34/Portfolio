@@ -20,7 +20,7 @@ justify-content: flex-start;
 align-items: center;
 font-family: "Azeret Mono", monospace;top: 300px;}
 
-.paragraph{margin-top: 350px; display: flex;
+.paragraph{margin-top: 350px;margin-bottom: 0%;margin-left: 500px;margin-right: 500px; display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
