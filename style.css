@@ -231,14 +231,14 @@ padding: 12px 20px 12px 20px}
       transform: translate(-50%, -50%);text-align: center;font-size: x-large;font-family: "Azeret Mono", monospace;}
 
     .input{ width: 548px;
-      height: 57px;position: absolute;top: 70%;left: 40%;transform: translate(-50%, -50%);text-align: center;border-radius: 8px;}
+      height: 57px;position: absolute;top: 70%;left: 40%;transform: translate(-50%, -50%);text-align: center;border-radius: 8px;font-size: 20px;}
     .btn1{position: absolute;top: 70%;left: 60%;transform: translate(-50%, -50%);text-align: center;font-size: 40px;padding: 10px;border-radius: 8px}
-    ::placeholder{font-size: 30px;text-align: left;}
 
     .foot{display: flex; margin-top: 100px; font-size: 40px;font-weight: 600;}
     .footer {
       flex-grow: 1;}
     .icon{margin: 20px;}
+
     
 
     
