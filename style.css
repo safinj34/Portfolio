@@ -36,8 +36,7 @@
 .paragraph {
   margin-top: 350px;
   margin-bottom: 0%;
-  margin-left: 500px;
-  margin-right: 500px;
+
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -168,9 +167,7 @@
 }
 
 
-.content3 {
-  margin: 50px;
-}
+
 
 .pic3 {
   position: relative;
@@ -187,28 +184,31 @@
   text-decoration: none;
 }
 
+
+.code iframe{width: 1280px;height: 720px;}
+
 .code {
-  position: absolute;
-  left: 300px;
+  position: relative;
 
 
+justify-content: center;align-items: center;
 
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+
+
   padding: 32px;
 
 
 
-  flex: none;
-  order: 1;
-  align-self: stretch;
-  flex-grow: 0;
-  margin: 48px 0px;
+ 
+  
+  
+  
+  
 }
 
 .heading5 {
-  margin-top: 800px;
+
   font-size: 50px;
   position: relative;
   display: flex;
@@ -378,6 +378,8 @@
   margin: 20px;
 }
 
+.content3{margin: 0;}
+
 
 
 @media screen and (max-width:576px) {
@@ -421,13 +423,13 @@
   .pic1 {
     margin: 0;
     padding: 0;
-    top: 400px;
+
     right: 0;
     left: 0;
-    position: relative;top: 200px;
+    position: relative;
   }
 
-  .content {
+  .content {display: flex;flex-direction: column;
     margin: 0;
     padding: 0;
   }
@@ -440,15 +442,15 @@
 
   .pic2 {
     left: 0;
-    top: -100px;border: 2px solid saddlebrown
+    top: -100px;
   }
 
   .cardbox {
     text-align: center;
     margin: 0;position: relative;
   }
-  .content1{margin-top: 400px;}
-  .code  {position: relative;left: 0;}
+
+  .code ,.code iframe {position: relative;left: 0;width: 200px;height: 100px;}
   .para1{margin: 0;padding: 0;}
   .heading5,  .heading5 h1{margin: 0;font-size: 32px;}
   .flex{margin: 10px;padding: 10px;flex-direction: column;}.im {
@@ -494,3 +496,137 @@ padding: 5px;
 }
 .learnmore{display: inline-block;}.heading1{text-align: center;}
 .footer{text-align: center;}
+.yt{display: grid;justify-content: center;}
+
+.title{display: flex;flex-direction: column;margin-top: 200px;}
+
+.pic3{display: flex;justify-content: center;position: relative;}
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:576px) and (max-width: 992px) {
+  .main-div .pic {
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    margin: 0 auto;justify-content: center;align-items: center;position: relative;
+
+  }
+
+  .heading {
+    text-align: center;
+  }
+
+  .paragraph {
+    margin: 0px 0px;
+    padding: 0px 0px;
+  }
+
+  .heading {
+    font-size: 30px;
+  }
+
+  .heading {
+    top: 0px;
+  }
+
+  .pic {
+    width: 80%;
+
+  }
+
+
+
+  .cardbox {
+    margin: 0;
+    padding: 0;
+  }
+
+  .pic1 {
+    margin: 0;
+    padding: 0;
+   
+    right: 0;
+    left: 0;
+    position: relative;
+    display: flex;flex-direction: column;
+  }
+
+  .content {
+    margin: 0;
+    padding: 0;
+  }
+
+  .content1,
+  .pic2 {
+    margin: 0;
+    position: relative;
+  }
+
+  .pic2 {
+    left: 0;
+    top: -100px;
+  }
+
+  .cardbox {
+    text-align: center;
+    margin: 0;position: relative;
+  }
+  .content1{margin-top: 400px;}
+  .code ,.code iframe {position: relative;left: 0;width: 300px;height: 150px;}
+  .para1{margin: 0;padding: 0;}
+  .heading5,  .heading5 h1{margin: 0;font-size: 32px;}
+  .flex{margin: 10px;padding: 10px;flex-direction: column;}.im {
+  width: 200px;
+  height: 114px;
+  border-radius: 16px;
+  object-fit: cover;
+  opacity: 0.9;
+}
+.text-overlay1 {
+ display: none;
+}
+
+.input {
+  width: 50px;
+  height: 25px;
+  position: absolute;
+
+
+  text-align: center;
+  border-radius: 8px;
+  font-size: 20px;
+}
+.text-overlay {
+  position: absolute;
+
+  color: white;
+
+  text-align: center;
+  font-size: x-small;
+  font-family: "Azeret Mono", monospace;
+}.btn1 {
+
+
+padding: 5px;
+
+  text-align: center;
+  font-size: 10px;
+
+  border-radius: 8px
+}
+.foot{flex-direction: column;align-items: center;}
+}
+.learnmore{display: inline-block;}.heading1{text-align: center;}
+.footer{text-align: center;}
+.paragraph1{display: flex;align-items: center;justify-content: center;}
+.pic3{position: relative;}
+.pic3-div{display: flex;justify-content: center;}
+
+.learn{display: flex;flex-direction: column;justify-content: center;align-items: center;}
